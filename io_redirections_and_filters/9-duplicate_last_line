@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{line=$0} END {print line;print line}' iacta > temp && mv temp iacta
+tail -n 1 iacta >> iacta
